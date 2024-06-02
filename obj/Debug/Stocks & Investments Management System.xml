@@ -1,0 +1,421 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Stocks & Investments Management System
+</name>
+</assembly>
+<members>
+<member name="T:Stocks___Investments_Management_System.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Stocks___Investments_Management_System.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Stocks___Investments_Management_System.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Stocks___Investments_Management_System.My.Resources.Resources.reload__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:Stocks___Investments_Management_System.user_infoDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Stocks___Investments_Management_System.user_infoDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Stocks___Investments_Management_System.user_infoDataSet1.UsersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Stocks___Investments_Management_System.user_infoDataSet1.StocksDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Stocks___Investments_Management_System.user_infoDataSet1.UsersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Stocks___Investments_Management_System.user_infoDataSet1.StocksRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Stocks___Investments_Management_System.user_infoDataSet1.UsersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Stocks___Investments_Management_System.user_infoDataSet1.StocksRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Stocks___Investments_Management_System.user_infoDataSet1TableAdapters.UsersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Stocks___Investments_Management_System.user_infoDataSet1TableAdapters.StocksTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Stocks___Investments_Management_System.user_infoDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Stocks___Investments_Management_System.user_infoDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(Stocks___Investments_Management_System.user_infoDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Stocks___Investments_Management_System.user_infoDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(Stocks___Investments_Management_System.user_infoDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Stocks___Investments_Management_System.user_infoDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(Stocks___Investments_Management_System.user_infoDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Stocks___Investments_Management_System.user_infoDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Stocks___Investments_Management_System.user_infoDataSet1TableAdapters.TableAdapterManager.UpdateAll(Stocks___Investments_Management_System.user_infoDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Stocks___Investments_Management_System.user_infoDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Stocks___Investments_Management_System.user_infoDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Stocks___Investments_Management_System.user_infoDataSet2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Stocks___Investments_Management_System.user_infoDataSet2.StocksDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Stocks___Investments_Management_System.user_infoDataSet2.UsersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Stocks___Investments_Management_System.user_infoDataSet2.StocksRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Stocks___Investments_Management_System.user_infoDataSet2.UsersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Stocks___Investments_Management_System.user_infoDataSet2.StocksRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Stocks___Investments_Management_System.user_infoDataSet2.UsersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Stocks___Investments_Management_System.user_infoDataSet2TableAdapters.StocksTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Stocks___Investments_Management_System.user_infoDataSet2TableAdapters.UsersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Stocks___Investments_Management_System.user_infoDataSet2TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Stocks___Investments_Management_System.user_infoDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(Stocks___Investments_Management_System.user_infoDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Stocks___Investments_Management_System.user_infoDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(Stocks___Investments_Management_System.user_infoDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Stocks___Investments_Management_System.user_infoDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(Stocks___Investments_Management_System.user_infoDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Stocks___Investments_Management_System.user_infoDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Stocks___Investments_Management_System.user_infoDataSet2TableAdapters.TableAdapterManager.UpdateAll(Stocks___Investments_Management_System.user_infoDataSet2)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Stocks___Investments_Management_System.user_infoDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Stocks___Investments_Management_System.user_infoDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Stocks___Investments_Management_System.user_infoDataSet3">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Stocks___Investments_Management_System.user_infoDataSet3.StocksDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Stocks___Investments_Management_System.user_infoDataSet3.UsersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Stocks___Investments_Management_System.user_infoDataSet3.StocksRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Stocks___Investments_Management_System.user_infoDataSet3.UsersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Stocks___Investments_Management_System.user_infoDataSet3.StocksRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Stocks___Investments_Management_System.user_infoDataSet3.UsersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Stocks___Investments_Management_System.user_infoDataSet3TableAdapters.StocksTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Stocks___Investments_Management_System.user_infoDataSet3TableAdapters.UsersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Stocks___Investments_Management_System.user_infoDataSet3TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Stocks___Investments_Management_System.user_infoDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(Stocks___Investments_Management_System.user_infoDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Stocks___Investments_Management_System.user_infoDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(Stocks___Investments_Management_System.user_infoDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Stocks___Investments_Management_System.user_infoDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(Stocks___Investments_Management_System.user_infoDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Stocks___Investments_Management_System.user_infoDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Stocks___Investments_Management_System.user_infoDataSet3TableAdapters.TableAdapterManager.UpdateAll(Stocks___Investments_Management_System.user_infoDataSet3)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Stocks___Investments_Management_System.user_infoDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Stocks___Investments_Management_System.user_infoDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Stocks___Investments_Management_System.user_infoDataSet4">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Stocks___Investments_Management_System.user_infoDataSet4.TransactionsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Stocks___Investments_Management_System.user_infoDataSet4.TransactionsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Stocks___Investments_Management_System.user_infoDataSet4.TransactionsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Stocks___Investments_Management_System.user_infoDataSet4TableAdapters.TransactionsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Stocks___Investments_Management_System.user_infoDataSet4TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Stocks___Investments_Management_System.user_infoDataSet4TableAdapters.TableAdapterManager.UpdateUpdatedRows(Stocks___Investments_Management_System.user_infoDataSet4,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Stocks___Investments_Management_System.user_infoDataSet4TableAdapters.TableAdapterManager.UpdateInsertedRows(Stocks___Investments_Management_System.user_infoDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Stocks___Investments_Management_System.user_infoDataSet4TableAdapters.TableAdapterManager.UpdateDeletedRows(Stocks___Investments_Management_System.user_infoDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Stocks___Investments_Management_System.user_infoDataSet4TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Stocks___Investments_Management_System.user_infoDataSet4TableAdapters.TableAdapterManager.UpdateAll(Stocks___Investments_Management_System.user_infoDataSet4)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Stocks___Investments_Management_System.user_infoDataSet4TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Stocks___Investments_Management_System.user_infoDataSet4TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Stocks___Investments_Management_System.user_infoDataSet5">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Stocks___Investments_Management_System.user_infoDataSet5.SpendingsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Stocks___Investments_Management_System.user_infoDataSet5.SpendingsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Stocks___Investments_Management_System.user_infoDataSet5.SpendingsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Stocks___Investments_Management_System.user_infoDataSet5TableAdapters.SpendingsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Stocks___Investments_Management_System.user_infoDataSet5TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Stocks___Investments_Management_System.user_infoDataSet5TableAdapters.TableAdapterManager.UpdateUpdatedRows(Stocks___Investments_Management_System.user_infoDataSet5,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Stocks___Investments_Management_System.user_infoDataSet5TableAdapters.TableAdapterManager.UpdateInsertedRows(Stocks___Investments_Management_System.user_infoDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Stocks___Investments_Management_System.user_infoDataSet5TableAdapters.TableAdapterManager.UpdateDeletedRows(Stocks___Investments_Management_System.user_infoDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Stocks___Investments_Management_System.user_infoDataSet5TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Stocks___Investments_Management_System.user_infoDataSet5TableAdapters.TableAdapterManager.UpdateAll(Stocks___Investments_Management_System.user_infoDataSet5)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Stocks___Investments_Management_System.user_infoDataSet5TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Stocks___Investments_Management_System.user_infoDataSet5TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>

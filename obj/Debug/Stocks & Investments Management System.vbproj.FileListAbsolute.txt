@@ -1,0 +1,32 @@
+C:\Users\sevan\source\repos\Stocks & Investments Management System\Stocks & Investments Management System\obj\Debug\Stocks & Investments Management System.vbproj.AssemblyReference.cache
+C:\Users\sevan\source\repos\Stocks & Investments Management System\Stocks & Investments Management System\obj\Debug\Stocks___Investments_Management_System.login_page.resources
+C:\Users\sevan\source\repos\Stocks & Investments Management System\Stocks & Investments Management System\obj\Debug\Stocks___Investments_Management_System.Resources.resources
+C:\Users\sevan\source\repos\Stocks & Investments Management System\Stocks & Investments Management System\obj\Debug\Stocks___Investments_Management_System.register_page.resources
+C:\Users\sevan\source\repos\Stocks & Investments Management System\Stocks & Investments Management System\obj\Debug\Stocks & Investments Management System.vbproj.GenerateResource.cache
+C:\Users\sevan\source\repos\Stocks & Investments Management System\Stocks & Investments Management System\obj\Debug\Stocks & Investments Management System.vbproj.CoreCompileInputs.cache
+C:\Users\sevan\source\repos\Stocks & Investments Management System\Stocks & Investments Management System\bin\Debug\Stocks & Investments Management System.exe.config
+C:\Users\sevan\source\repos\Stocks & Investments Management System\Stocks & Investments Management System\bin\Debug\Stocks & Investments Management System.exe
+C:\Users\sevan\source\repos\Stocks & Investments Management System\Stocks & Investments Management System\bin\Debug\Stocks & Investments Management System.pdb
+C:\Users\sevan\source\repos\Stocks & Investments Management System\Stocks & Investments Management System\bin\Debug\Stocks & Investments Management System.xml
+C:\Users\sevan\source\repos\Stocks & Investments Management System\Stocks & Investments Management System\bin\Debug\Bunifu.Licensing.dll
+C:\Users\sevan\source\repos\Stocks & Investments Management System\Stocks & Investments Management System\bin\Debug\Bunifu.UI.WinForms.dll
+C:\Users\sevan\source\repos\Stocks & Investments Management System\Stocks & Investments Management System\bin\Debug\Guna.Charts.WinForms.dll
+C:\Users\sevan\source\repos\Stocks & Investments Management System\Stocks & Investments Management System\bin\Debug\Guna.UI2.dll
+C:\Users\sevan\source\repos\Stocks & Investments Management System\Stocks & Investments Management System\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+C:\Users\sevan\source\repos\Stocks & Investments Management System\Stocks & Investments Management System\bin\Debug\Bunifu.UI.WinForms.xml
+C:\Users\sevan\source\repos\Stocks & Investments Management System\Stocks & Investments Management System\bin\Debug\Guna.Charts.WinForms.xml
+C:\Users\sevan\source\repos\Stocks & Investments Management System\Stocks & Investments Management System\obj\Debug\Stocks & Investments Management System.vbproj.CopyComplete
+C:\Users\sevan\source\repos\Stocks & Investments Management System\Stocks & Investments Management System\obj\Debug\Stocks & Investments Management System.exe
+C:\Users\sevan\source\repos\Stocks & Investments Management System\Stocks & Investments Management System\obj\Debug\Stocks & Investments Management System.xml
+C:\Users\sevan\source\repos\Stocks & Investments Management System\Stocks & Investments Management System\obj\Debug\Stocks & Investments Management System.pdb
+C:\Users\sevan\source\repos\Stocks & Investments Management System\Stocks & Investments Management System\obj\Debug\Stocks___Investments_Management_System.home_page.resources
+C:\Users\sevan\source\repos\Stocks & Investments Management System\Stocks & Investments Management System\obj\Debug\Stocks___Investments_Management_System.stock_page.resources
+C:\Users\sevan\source\repos\Stocks & Investments Management System\Stocks & Investments Management System\obj\Debug\Stocks___Investments_Management_System.portfolio_page.resources
+C:\Users\sevan\source\repos\Stocks & Investments Management System\Stocks & Investments Management System\obj\Debug\Stocks___Investments_Management_System.admin_login.resources
+C:\Users\sevan\source\repos\Stocks & Investments Management System\Stocks & Investments Management System\obj\Debug\Stocks___Investments_Management_System.Inventory_page.resources
+C:\Users\sevan\source\repos\Stocks & Investments Management System\Stocks & Investments Management System\obj\Debug\Stocks___Investments_Management_System.buy_stock.resources
+C:\Users\sevan\source\repos\Stocks & Investments Management System\Stocks & Investments Management System\obj\Debug\Stocks___Investments_Management_System.Blogs_page.resources
+C:\Users\sevan\source\repos\Stocks & Investments Management System\Stocks & Investments Management System\obj\Debug\Stocks___Investments_Management_System.add_stock.resources
+C:\Users\sevan\source\repos\Stocks & Investments Management System\Stocks & Investments Management System\obj\Debug\Stocks___Investments_Management_System.budget_allocation.resources
+C:\Users\sevan\source\repos\Stocks & Investments Management System\Stocks & Investments Management System\obj\Debug\Stocks___Investments_Management_System.sell_stock.resources
+C:\Users\sevan\source\repos\Stocks & Investments Management System\Stocks & Investments Management System\obj\Debug\Stocks___Investments_Management_System.Expense_tracker.resources

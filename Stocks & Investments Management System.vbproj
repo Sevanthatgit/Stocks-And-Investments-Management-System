@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C2052AB5-B3C5-459A-82C7-EEE25CA32380}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Stocks___Investments_Management_System.My.MyApplication</StartupObject>
+    <RootNamespace>Stocks___Investments_Management_System</RootNamespace>
+    <AssemblyName>Stocks &amp; Investments Management System</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Stocks &amp; Investments Management System.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Stocks &amp; Investments Management System.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu.Licensing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=f89b4760ba7dcb6b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bunifu.UI.WinForms.6.3.0\lib\net452\Bunifu.Licensing.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms, Version=0.0.0.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bunifu.UI.WinForms.6.3.0\lib\net452\Bunifu.UI.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.Charts.WinForms, Version=1.0.9.0, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.Charts.WinForms.1.0.9\lib\net472\Guna.Charts.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.6\lib\net472\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\VisualBasic.PowerPacks.Vs.1.0.0\lib\Microsoft.VisualBasic.PowerPacks.Vs.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="add_stock.Designer.vb">
+      <DependentUpon>add_stock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="add_stock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin_login.Designer.vb">
+      <DependentUpon>admin_login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="admin_login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Blogs_page.Designer.vb">
+      <DependentUpon>Blogs_page.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Blogs_page.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="budget_allocation.Designer.vb">
+      <DependentUpon>budget_allocation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="budget_allocation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="buy_stock.Designer.vb">
+      <DependentUpon>buy_stock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="buy_stock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Expense_tracker.Designer.vb">
+      <DependentUpon>Expense_tracker.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Expense_tracker.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="home_page.Designer.vb">
+      <DependentUpon>home_page.vb</DependentUpon>
+    </Compile>
+    <Compile Include="home_page.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory_page.Designer.vb">
+      <DependentUpon>Inventory_page.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory_page.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="portfolio_page.Designer.vb">
+      <DependentUpon>portfolio_page.vb</DependentUpon>
+    </Compile>
+    <Compile Include="portfolio_page.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="register_page.Designer.vb">
+      <DependentUpon>register_page.vb</DependentUpon>
+    </Compile>
+    <Compile Include="register_page.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login_page.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login_page.Designer.vb">
+      <DependentUpon>login_page.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="sell_stock.Designer.vb">
+      <DependentUpon>sell_stock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="sell_stock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stock_page.Designer.vb">
+      <DependentUpon>stock_page.vb</DependentUpon>
+    </Compile>
+    <Compile Include="stock_page.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="user_infoDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>user_infoDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="user_infoDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>user_infoDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="user_infoDataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>user_infoDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="user_infoDataSet3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>user_infoDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="user_infoDataSet4.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>user_infoDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="user_infoDataSet5.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>user_infoDataSet5.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="add_stock.resx">
+      <DependentUpon>add_stock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="admin_login.resx">
+      <DependentUpon>admin_login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Blogs_page.resx">
+      <DependentUpon>Blogs_page.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="budget_allocation.resx">
+      <DependentUpon>budget_allocation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="buy_stock.resx">
+      <DependentUpon>buy_stock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Expense_tracker.resx">
+      <DependentUpon>Expense_tracker.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory_page.resx">
+      <DependentUpon>Inventory_page.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login_page.resx">
+      <DependentUpon>login_page.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="home_page.resx">
+      <DependentUpon>home_page.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="portfolio_page.resx">
+      <DependentUpon>portfolio_page.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="register_page.resx">
+      <DependentUpon>register_page.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sell_stock.resx">
+      <DependentUpon>sell_stock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stock_page.resx">
+      <DependentUpon>stock_page.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+    <None Include="user_infoDataSet.xsc">
+      <DependentUpon>user_infoDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="user_infoDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>user_infoDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="user_infoDataSet.xss">
+      <DependentUpon>user_infoDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="user_infoDataSet1.xsc">
+      <DependentUpon>user_infoDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="user_infoDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>user_infoDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="user_infoDataSet1.xss">
+      <DependentUpon>user_infoDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="user_infoDataSet2.xsc">
+      <DependentUpon>user_infoDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="user_infoDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>user_infoDataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="user_infoDataSet2.xss">
+      <DependentUpon>user_infoDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="user_infoDataSet3.xsc">
+      <DependentUpon>user_infoDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="user_infoDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>user_infoDataSet3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="user_infoDataSet3.xss">
+      <DependentUpon>user_infoDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="user_infoDataSet4.xsc">
+      <DependentUpon>user_infoDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="user_infoDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>user_infoDataSet4.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="user_infoDataSet4.xss">
+      <DependentUpon>user_infoDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="user_infoDataSet5.xsc">
+      <DependentUpon>user_infoDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="user_infoDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>user_infoDataSet5.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="user_infoDataSet5.xss">
+      <DependentUpon>user_infoDataSet5.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reload %281%29.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
